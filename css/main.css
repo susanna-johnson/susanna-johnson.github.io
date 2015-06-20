@@ -51,3 +51,9 @@ blockquote p {
     padding-top: 10px;
     font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+@media (min-width: 768px) {
+    .pull-right-sm {
+        float: right;
+    }
+}
