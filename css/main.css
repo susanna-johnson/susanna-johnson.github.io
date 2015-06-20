@@ -1,6 +1,6 @@
 .title {
-    background-color: rgba(0,0,0,0.7);
-    color: #ffffff;
+    background-color: rgba(255,255,255,0.6);
+    color: #BE2A08;
 }
 
 .recordings-item iframe {
@@ -33,4 +33,9 @@ blockquote:after {
 }
 blockquote p {
     display: inline;
+}
+
+.about .container {
+    background-color: #BCC1C8;
+    color: #101720;
 }
