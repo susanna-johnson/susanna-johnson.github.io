@@ -39,3 +39,15 @@ blockquote p {
     background-color: #BCC1C8;
     color: #101720;
 }
+
+.suzuki-logo {
+    background-image: url("../img/suzuki_logo.png");
+    width: 31px;
+    height: 45px;
+    margin-right: 14px;
+}
+
+.dl-horizontal dd {
+    padding-top: 10px;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
