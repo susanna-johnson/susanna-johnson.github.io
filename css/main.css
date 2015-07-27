@@ -43,6 +43,10 @@ blockquote p {
     color: #101720;
 }
 
+.about .container a {
+    color: #000000;
+}
+
 .suzuki-logo {
     background-image: url("../img/suzuki_logo.png");
     width: 31px;
