@@ -1,5 +1,5 @@
 .title {
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     color: #BE2A08;
 }
 
@@ -11,10 +11,11 @@
 blockquote {
     background: #3d4146;
     border-left: 10px solid #0a0a0f;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+    /* margin: 1.5em 10px; */
+    padding: 2em 1em 0 1em;
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
+
 blockquote:before {
     color: #ccc;
     content: open-quote;
@@ -23,6 +24,7 @@ blockquote:before {
     margin-right: 0.25em;
     vertical-align: -0.4em;
 }
+
 blockquote:after {
     visibility: hidden;
     color: #ccc;
@@ -31,6 +33,7 @@ blockquote:after {
     line-height: 0.1em;
     vertical-align: -0.4em;
 }
+
 blockquote p {
     display: inline;
 }
@@ -49,7 +52,7 @@ blockquote p {
 
 .dl-horizontal dd {
     padding-top: 10px;
-    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
